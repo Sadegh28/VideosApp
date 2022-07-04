@@ -16,7 +16,7 @@ export default class SearchBar extends Component {
       <div className='container p-2 pb-3 rounded mt-3'>
         <form onSubmit={this.onFormSubmit} >
           <label className="h6" >Search Videos</label>
-          <input type="text" value={this.state.term} onChange={this.inputChange} className='w-100 rounded' />
+          <input type="text" value={this.state.term} onChange={this.inputChange} className='w-100 rounded p-1' />
         </form>
       </div>
     )

@@ -10,7 +10,7 @@ export default class VideoDetails extends Component {
             <iframe src={videoSrc} title="Youtube Video Player" className=''></iframe>
           </div>
           <div className='w-100 mt-3 border p-3'>
-            <h6>this.props.video.snippet.title</h6>
+            <h6>{this.props.video.snippet.title}</h6>
             <p>{this.props.video.snippet.description}</p>
           </div>
         </div>
